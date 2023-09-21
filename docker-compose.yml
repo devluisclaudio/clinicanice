@@ -1,0 +1,13 @@
+version: "3.7"
+services:
+  web:
+    image: nginx:latest
+    container_name: norkon-web
+    restart: unless-stopped
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./nginx:/etc/nginx/conf.d/
+      - ./dist:/usr/share/nginx/html
+      - /etc/letsencrypt/live/:/etc/letsencrypt
