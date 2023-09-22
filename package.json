@@ -1,9 +1,9 @@
 {
-  "name": "norkon",
+  "name": "nicecleia-nogueira",
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "serve": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+    "serve": "vue-cli-service serve",
     "dev": "yarn serve",
     "build": "export NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
     "lint": "vue-cli-service lint",
@@ -38,9 +38,10 @@
     "eslint-plugin-vue": "^7.9.0",
     "eslint-plugin-vuetify": "^1.0.0-beta.7",
     "lodash": "^4.17.21",
+    "node-sass": "^8.0.0",
     "open": "^7.0.3",
     "sass": "~1.32.0",
-    "sass-loader": "^10.0.0",
+    "sass-loader": "^10.4.1",
     "shelljs": "^0.8.4",
     "vue-cli-plugin-vuetify": "~2.4.2",
     "vue-template-compiler": "^2.6.14",

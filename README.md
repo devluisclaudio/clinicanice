@@ -1,4 +1,4 @@
-# Website Oficial Norkon Technology
+# Website Oficial Nicecelia Nogueira - Estética Avançada
 Plataforma desenvolvida em VueJs.
 
 ## Getting Started

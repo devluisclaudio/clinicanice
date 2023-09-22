@@ -6,15 +6,15 @@
 
 <script>
   export default {
-    name: 'Norkon',
+    name: 'NicicleiaNogueira',
     metaInfo: {
-      title: 'Norkon',
-      titleTemplate: '%s | Norkon',
+      title: 'Nicicleia Nogueira',
+      titleTemplate: '%s | Nicicleia Nogueira',
       htmlAttrs: { lang: 'pt-br' },
       meta: [
         { charset: 'utf-8' },
         { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-        { name: 'description', content: 'Norkon Technology transformando ideias em novos negócios com <strong>Eficiência e Credibilidade</strong>' },
+        { name: 'description', content: 'Harmonização facial e corporal com resultados além das expectativas.<br>Descubra o poder da sua beleza, realçando seus traços naturais de maneira elegante e duradoura com alta tecnologia.' },
       ],
     },
   }

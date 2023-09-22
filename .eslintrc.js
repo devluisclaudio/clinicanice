@@ -18,18 +18,8 @@ module.exports = {
     'template-curly-spacing': 'off',
     indent: 'off',
     //
-    'no-unused-vars': 'warn',
+    'no-unused-vars': 'off',
+    'vue/script-setup-uses-vars': 'off',
+    
   },
-
-  overrides: [
-    {
-      files: [
-        '**/__tests__/*.{j,t}s?(x)',
-        '**/tests/unit/**/*.spec.{j,t}s?(x)',
-      ],
-      env: {
-        jest: true,
-      },
-    },
-  ],
 }

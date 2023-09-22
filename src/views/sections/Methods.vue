@@ -1,7 +1,7 @@
 <template>
   <v-theme-provider dark>
     <base-section
-      id="norkon-features"
+      id="nicecleia-nogueira-features"
       class="secondary"
     >
       <base-section-heading

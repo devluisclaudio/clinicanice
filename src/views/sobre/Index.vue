@@ -1,12 +1,12 @@
 <template>
   <v-theme-provider>
     <base-section
-      id="norkon-social"
+      id="nicecleia-nogueira-social"
       class="transparent text-center"
       space="100"
     >
       <base-img
-        :src="$vuetify.theme.isDark ? require(`@/assets/norkon-logo-sem-fundo-dark.svg`): require(`@/assets/norkon-logo-sem-fundo.svg`)"
+        :src="$vuetify.theme.isDark ? require(`@/assets/nicecleia-nogueira-logo-dark.svg`): require(`@/assets/nicecleia-nogueira-logo.svg`)"
         class="mr-3 d-flex justify-content-center align-items-center"
         contain
         max-height="80"

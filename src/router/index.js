@@ -25,13 +25,8 @@ const router = new Router({
         },
         {
           path: 'sobre',
-          name: 'Sobre a Norkon',
+          name: 'Sobre mim',
           component: () => import('@/views/sobre/Index.vue'),
-        },
-        {
-          path: 'blog',
-          name: 'Blog',
-          component: () => { window.location.href = 'https://blog.norkontecnology.com' },
         },
         {
           path: 'servico',

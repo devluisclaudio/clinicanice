@@ -1,6 +1,6 @@
 <template>
   <v-footer
-    id="norkon-home-footer"
+    id="nicecleia-nogueira-home-footer"
     color="black"
     min-height="72"
     dark
@@ -38,7 +38,7 @@
           cols="12"
           md="6"
         >
-          Copyright &copy; {{ new Date().getFullYear() }} Norkon Technology
+          Copyright &copy; {{ new Date().getFullYear() }} Nicecleia Nogueira - Estética Avançada
         </v-col>
       </v-row>
     </v-container>
@@ -56,7 +56,7 @@
         'Site',
       ],
       href: [
-        'https://instagram.com/norkontechnology?igshid=ZDdkNTZiNTM=',
+        'https://www.instagram.com/nicecleiafarma_',
         'https://www.linkedin.com/company/norkon-tecnology/',
         '#',
       ],

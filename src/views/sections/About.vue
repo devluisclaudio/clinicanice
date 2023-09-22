@@ -1,12 +1,12 @@
 <template>
   <v-theme-provider dark>
     <base-section
-      id="norkon-social"
+      id="nicecleia-nogueira-social"
       class="secondary text-center"
       space="56"
     >
       <base-img
-        :src="require(`@/assets/norkon-logo-sem-fundo-dark.svg`)"
+        :src="require(`@/assets/nicecleia-nogueira-logo-dark.svg`)"
         class="mr-3 d-flex justify-content-center align-items-center"
         contain
         max-height="80"
@@ -32,7 +32,7 @@
         x-large
         @click="navigate('sobre')"
       >
-        Sobre a Norkon
+        Sobre mim
 
         <v-icon right>
           mdi-open-in-new

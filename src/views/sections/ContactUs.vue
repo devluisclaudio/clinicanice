@@ -1,10 +1,10 @@
 <template>
   <base-section
-    id="norkon-pro-features"
+    id="nicecleia-nogueira-pro-features"
     class="text-center"
   >
     <v-img
-      :src="$vuetify.theme.isDark ? require(`@/assets/norkon-logo-sem-fundo-dark.svg`): require(`@/assets/norkon-logo-sem-fundo.svg`)"
+      :src="$vuetify.theme.isDark ? require(`@/assets/nicecleia-nogueira-logo-dark.svg`): require(`@/assets/nicecleia-nogueira-logo.svg`)"
       class="mx-auto mb-8"
       max-width="512"
     />

@@ -1,6 +1,6 @@
 <template>
   <base-section
-    id="norkon-affiliates"
+    id="nicecleia-nogueira-affiliates"
     space="36"
   >
     <v-container>

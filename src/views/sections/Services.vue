@@ -1,5 +1,5 @@
 <template>
-  <base-section id="norkon-theme-features">
+  <base-section id="nicecleia-nogueira-theme-features">
     <base-section-heading title="Qual é a sua Necessidade?">
       A solução pensada atende aos requisitos priorizados no planejamento e levando em consideração a viabilidade técnica e orçamentária.
     </base-section-heading>

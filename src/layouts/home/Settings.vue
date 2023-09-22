@@ -13,7 +13,7 @@
   >
     <template #activator="{ attrs, on }">
       <v-card
-        id="norkon-settings"
+        id="nicecleia-nogueira-settings"
         class="py-2 px-4"
         color="#0000004D"
         dark
@@ -94,8 +94,8 @@
       return {
         colors: [
           this.$vuetify.theme.currentTheme.primary,
-          '#9368e9',
-          '#F4511E',
+          this.$vuetify.theme.currentTheme.secondary,
+          this.$vuetify.theme.currentTheme.accent,
         ],
         menu: false,
       }

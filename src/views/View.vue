@@ -1,5 +1,5 @@
 <template>
-  <section :id="norkon-id">
+  <section :id="id">
     <v-row no-gutters>
       <v-col cols="12">
         <component

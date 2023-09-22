@@ -1,14 +1,14 @@
 <template>
   <div>
     <v-app-bar
-      id="norkon-home-app-bar"
+      id="nicecleia-nogueira-home-app-bar"
       app
       elevation="1"
       elevate-on-scroll
       height="80"
     >
       <base-img
-        :src="require(`@/assets/norkon-logo-fundo-${$vuetify.theme.isDark ? '2' : '1'}.svg`)"
+        :src="require(`@/assets/nicecleia-nogueira-logo-fundo-${$vuetify.theme.isDark ? '2' : '1'}.svg`)"
         class="mr-3"
         contain
         max-width="245"
@@ -83,8 +83,7 @@
       group: null,
       items: [
         'Home',
-        'Blog',
-        'Sobre a Norkon',
+        'Sobre mim',
         'Serviços',
         'Contato',
       ],

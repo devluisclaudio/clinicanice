@@ -1,5 +1,7 @@
-$body-font-family: 'PT Sans', sans-serif;
-$heading-font-family: 'Work Sans', sans-serif;
+@import url('https://fonts.cdnfonts.com/css/nebulen-personal-use-only');
+
+$body-font-family: 'Montserrat', sans-serif;
+$heading-font-family: 'Montserrat', sans-serif;
 
 $headings: (
   'h4': (
@@ -27,12 +29,12 @@ $headings: (
 );
 
 $material-dark: (
-  'app-bar': #0B1C3D,
-  'cards': #212121,
-  'tabs': #FFFFFF
+  'app-bar': #917362,
+  'cards': #fff,
+  'tabs': #a6691f
 );
 
 $material-light: (
-  'app-bar': #FFFFFF,
-  'cards': #FAFAFA
+  'app-bar': #fff,
+  'cards': #fff
 );
