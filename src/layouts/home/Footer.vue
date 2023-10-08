@@ -38,7 +38,7 @@
           cols="12"
           md="6"
         >
-          Copyright &copy; {{ new Date().getFullYear() }} Nicecleia Nogueira - Estética Avançada
+          Copyright &copy; {{ new Date().getFullYear() }} Nicecleia Nogueira - Estética Personalizada
         </v-col>
       </v-row>
     </v-container>

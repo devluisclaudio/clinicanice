@@ -6,20 +6,20 @@
       space="100"
     >
       <base-img
-        :src="$vuetify.theme.isDark ? require(`@/assets/nicecleia-nogueira-logo-dark.svg`): require(`@/assets/nicecleia-nogueira-logo.svg`)"
-        class="mr-3 d-flex justify-content-center align-items-center"
+        :src="$vuetify.theme.isDark ? require(`@/assets/ISOTIPO PRETO.svg`): require(`@/assets/ISOTIPO branco.svg`)"
+        class="mr-3 mb-3 d-flex justify-content-center align-items-center"
         contain
-        max-height="80"
+        max-height="110"
         width="100%"
       />
 
       <base-section-heading
-        color="primary"
-        title="NORKON É A SUA EQUIPE DE TI"
-        width="100%"
+        title="Quem é Nicecleia Nogueira?"
       >
-        Para encarar o mercado disputado e cada vez mais maduro, em todas as áreas de atuação, sabemos o quanto é importante concentrar todos os esforços e olhares voltados para o seu core business. É exatamente por isto que a Norkon tem a proposta de ser a sua equipe de TI. Deixe conosco as preocupações e soluções em software e sistemas e acelere seu negócio.
-        Softwares desenvolvidos são sempre sob medida, entendemos a necessidade do cliente. Para esclarecer e simplificar a contratação de softwares, aplicativos e sites é aconselhável investir em um PoC (Prova de Conceito) assim com poucas horas você e sua equipe poderão discutir de forma mais concreta e clara o projeto.
+        <span class="subtitle-te"> A Nicecleia Nogueira Estética Persoanalizada nasceu para auxiliar pessoas a trazer a tona a sua melhor versão, trazendo um olhar personalizado para cada um que passa em suas mãos.<br>
+          Nossa abordagem única se baseia na escuta ativa e no entendimento profundo das necessidades de cada paciente. Com nossa expertise, criamos um ambiente de apoio e confiança, guiando cada indivíduo em direção à sua melhor versão, não apenas como pacientes, mas como ser humano único e especial.
+          <br>Possuímos a profunda convicção de que todos merecem a oportunidade de alcançar a sua melhor versão. Acreditamos que o cuidado de saúde deve ser personalizado, indo além do convencional.
+        </span>
       </base-section-heading>
     </base-section>
   </v-theme-provider>
@@ -39,3 +39,9 @@
     },
   }
 </script>
+<style scoped>
+.subtitle-te{
+  text-align: justify;
+  color: black !important;
+}
+</style>

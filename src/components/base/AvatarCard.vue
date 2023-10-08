@@ -3,20 +3,20 @@
     :class="classes"
     class="pt-2"
   >
-    <base-avatar
+    <!-- <base-avatar
       v-if="icon"
       :color="color"
       :dark="dark"
       :icon="icon"
       :outlined="outlined"
       :size="size"
-      class="mb-3 align-self-start"
-    />
+      class="mb-3 align-self-center"
+    /> -->
 
     <div :class="horizontal && title && 'ml-6'">
       <base-title
         :title="title"
-        class="text-uppercase"
+        class="text-uppercase mt-5 title--text"
         space="3"
       />
 
@@ -86,3 +86,9 @@
     },
   }
 </script>
+
+<style scoped>
+.title--text {
+  color: #ff8900 !important;
+}
+</style>

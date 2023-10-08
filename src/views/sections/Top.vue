@@ -2,7 +2,8 @@
   <section id="nicecleia-nogueira-hero">
     <v-img
       :min-height="minHeight"
-      :src="require('@/assets/light-1.avif')"
+      :src="require('@/assets/fundo.avif')"
+      :max-height="maxHeight"
       class="white--text"
       gradient="to bottom, rgba(89, 81, 66, .9), rgba(0,0,0,.4)"
     >
@@ -21,7 +22,7 @@
 
           <base-subheading
             weight="regular"
-            title="Estética Avançada"
+            title="Estética Personalizada"
           />
 
           <base-body>
@@ -45,7 +46,7 @@
               text
               @click="navigate('servico')"
             >
-              Nossos serviços
+              Nossos Procedimentos
             </base-btn>
           </div>
         </v-responsive>
@@ -64,6 +65,11 @@
     computed: {
       minHeight () {
         const height = this.$vuetify.breakpoint.mdAndUp ? '80vh' : '50vh'
+
+        return `calc(${height} - ${this.$vuetify.application.top}px)`
+      },
+      maxHeight () {
+        const height = this.$vuetify.breakpoint.mdAndUp ? '95vh' : '50vh'
 
         return `calc(${height} - ${this.$vuetify.application.top}px)`
       },

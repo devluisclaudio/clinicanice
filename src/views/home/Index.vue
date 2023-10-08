@@ -17,8 +17,8 @@
       LoadSections([
         'top',
         'services',
-        'methods',
-        'partners',
+        // 'methods',
+        // 'partners',
         'about',
         'contact-us',
       ]),

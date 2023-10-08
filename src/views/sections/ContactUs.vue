@@ -9,8 +9,8 @@
       max-width="512"
     />
 
-    <base-section-heading title="Uma equipe que também faz parte da sua equipe.">
-      Transformamos ideias em novos negócios com <strong>Eficiência e Credibilidade</strong>.
+    <base-section-heading title="Agende Sua Consulta Agora!">
+      <span class="subtitle">Descubra os Tratamentos de Estética mais avançados e atinga a melhor versão de si mesma!</span>
     </base-section-heading>
 
     <div class="py-4" />
@@ -24,7 +24,7 @@
       x-large
       @click="openInNewTab"
     >
-      Vamos conversar?
+      Marcar minha Consulta
       <v-icon right>
         mdi-whatsapp
       </v-icon>
@@ -55,3 +55,8 @@
     },
   }
 </script>
+<style scoped>
+.subtitle{
+  color: black;
+}
+</style>
