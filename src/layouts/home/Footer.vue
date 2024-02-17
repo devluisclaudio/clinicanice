@@ -56,7 +56,7 @@
         'Site',
       ],
       href: [
-        'https://www.instagram.com/nicecleiafarma_',
+        'https://www.instagram.com/dranicecleia',
         'https://www.linkedin.com/company/norkon-tecnology/',
         '#',
       ],

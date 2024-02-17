@@ -49,7 +49,7 @@
     }),
     methods: {
       openInNewTab () {
-        const url = 'https://api.whatsapp.com/send?phone=5592984552589&text=Olá vim atraves do site da Norkon Technology e gostaria...'
+        const url = 'https://api.whatsapp.com/send?phone=5548984476890&text=Olá vim atraves do site e gostaria...'
         window.open(url, '_blank', 'noreferrer')
       },
     },

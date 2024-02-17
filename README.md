@@ -1,4 +1,4 @@
-# Website Oficial Nicecelia Nogueira - Estética Avançada
+# Website Oficial Nicecelia Nogueira - Estética Personalizada
 Plataforma desenvolvida em VueJs.
 
 ## Getting Started
